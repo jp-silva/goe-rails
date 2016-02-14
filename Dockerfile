@@ -6,5 +6,4 @@ COPY Gemfile.lock /var/app/Gemfile.lock
 WORKDIR /var/app
 RUN gem install bundler
 RUN bundle update
-RUN bundle install
 CMD rails s -b 0.0.0.0

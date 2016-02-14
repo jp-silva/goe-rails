@@ -8,6 +8,5 @@ web:
   volumes:
     - '/Users/jpsilva/dev/rails/goe-rails:/var/app'
   command: rails s -b '0.0.0.0'
-#  command: rake RAILS_ENV=development docker_tasks:migrate_and_start
   links:
     - db
