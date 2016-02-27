@@ -56,3 +56,5 @@ gem 'will_paginate-bootstrap'
 gem 'devise'
 #back-office
 gem 'rails_admin'
+gem 'ckeditor'
+gem 'paperclip'
