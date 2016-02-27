@@ -6,7 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Article.create(title: 'Mega titulo xpto', body: 'daadsadas')
-Article.create(title: 'Mega titulo xpto 2', body: 'daadsadas')
-Article.create(title: 'Mega titulo xpto 3', body: 'daadsadas')
-Article.create(title: 'Mega titulo xpto 4', body: 'daadsadas')
+User.create! :email => 'admin@gmail.com', :password => '12345678', :password_confirmation => '12345678'
